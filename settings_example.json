@@ -1,0 +1,59 @@
+{
+    "face_recognition":{
+        "mqtt_server":{
+            "HOST" : "host",
+            "PORT" : 1234,
+            "username" : "mqtt",
+            "password" : "mqtt",
+            "client_id" : "FaceRecognition",
+            "subscribe" : "/run",
+            "qos" : 1
+        },
+        "request":{
+            "request_type" : "HTTP",
+            "request_addr" : "host",
+            "request_port" : "1234" ,
+            "request_token" : "token",
+            "request_camera_entity_id" : "camera"
+        },
+        "baidu_face_api":{
+            "api_id" : "1234",
+            "api_key" : "1234",
+            "secret_key" : "1234",
+            "group_list" : "1234",
+            "liveness" : "",
+            "score" : "80",
+            "options":{
+                "max_face_num" : 10,
+                "match_threshold" : "80",
+                "quality_control" : "NONE",
+                "liveness_control" : "liveness",
+                "max_user_num" : 10
+            }
+        }
+    },
+    "license_plate_recognition":{
+        "mqtt_server":{
+            "HOST" : "host",
+            "PORT" : 1234,
+            "username" : "mqtt",
+            "password" : "mqtt",
+            "client_id" : "licensePlateRecognition",
+            "subscribe" : "/run",
+            "qos" : 1
+        },
+        "request":{
+            "request_type" : "HTTP",
+            "request_addr" : "host",
+            "request_port" : "1234" ,
+            "request_token" : "1234",
+            "request_camera_entity_id" : "camera"
+        },
+        "baidu_face_api":{
+            "api_id" : "1234",
+            "api_key" : "1234",
+            "secret_key" : "1234",
+            "options":{}
+        }
+    }
+}

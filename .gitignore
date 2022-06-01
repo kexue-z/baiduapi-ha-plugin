@@ -1,0 +1,6 @@
+settings.json
+.dev
+.env1
+.tree
+__pycache__
+.vscode/settings.json

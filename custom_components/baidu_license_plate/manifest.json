@@ -1,0 +1,9 @@
+{
+    "domain": "baidu_license_plate",
+    "name": "Baidu License Plate Recognition",
+    "documentation": "https://gitee.com/kexue233/baiduapi-ha-plugin",
+    "dependencies": [],
+    "codeowners": ["@kexue"],
+    "requirements": ["baidu-aip==2.2.18.0"],
+    "version": "2021.4.0"
+}
